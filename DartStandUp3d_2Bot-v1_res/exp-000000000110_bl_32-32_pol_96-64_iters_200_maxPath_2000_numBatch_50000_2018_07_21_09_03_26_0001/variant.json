@@ -1,0 +1,16 @@
+{
+  "blArch": [
+    32,
+    32
+  ],
+  "envName": "DartStandUp3d_2Bot-v1",
+  "exp_name": "exp-000000000110_bl_32-32_pol_96-64_iters_200_maxPath_2000_numBatch_50000_2018_07_21_09_03_26_0001",
+  "iters": 200,
+  "maxPathLength": 2000,
+  "numBatches": 50000,
+  "polArch": [
+    96,
+    64
+  ],
+  "rwdCmpFormat": "000000000110"
+}

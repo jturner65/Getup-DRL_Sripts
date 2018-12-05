@@ -1,0 +1,23 @@
+{
+  "blType": "MLP",
+  "envName": "DartStandUp3d_2Bot-v1",
+  "exp_name": "exp-100000000000_bl_128-64-32_pl_128-64-32_it_200_mxPth_200_nBtch_200000_ALG_TRPO__2018_08_20_09_17_31_0001",
+  "gae_lambda": 1.0,
+  "isGymEnv": true,
+  "maxPathLength": 200,
+  "mlpArch": [
+    128,
+    64,
+    32
+  ],
+  "numBatches": 200000,
+  "numIters": 200,
+  "optimizerArgs": null,
+  "polNetArch": [
+    128,
+    64,
+    32
+  ],
+  "rwdCmpFormat": "100000000000",
+  "useCG": true
+}

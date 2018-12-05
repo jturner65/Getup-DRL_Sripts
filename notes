@@ -1,0 +1,13 @@
+Recap : 
+
+Do not want normalized baseline input/output (default setting in RLLAB code)
+
+Want to find baseline model that most closely and consistently follows reward function
+Current DartStandUp2d-v1 work is 5 policiy/baseline model sets with different architectures, all trained at least 154 iterations (4 out of 5 trained with 300 iterations)
+
+architectures (original exp_lite name/policy arch/baseline arch/training iterations):
+1.) 'experiment_2017_11_03_13_18_11_0001',MLP:64-64,MLP:32-32,154
+2.) 'experiment_2017_11_03_21_59_37_0001',MLP:32-32,MLP:16-16,300
+3.) 'experiment_2017_11_04_01_50_57_0001',MLP:32-32,MLP:32-32,300
+4.) 'experiment_2017_11_04_20_43_29_0001',MLP:64-64,MLP:8-8,300
+5.) 'experiment_2017_11_05_11_10_50_0001',MLP:64-64,MLP:16,300

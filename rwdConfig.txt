@@ -1,0 +1,13 @@
+eefDist
+action
+height
+footMovDist
+lFootMovDist
+rFootMovDist
+comcop
+contacts
+UP_COMVEL
+X_COMVEL
+Z_COMVEL
+GAE_getUp
+kneeAction

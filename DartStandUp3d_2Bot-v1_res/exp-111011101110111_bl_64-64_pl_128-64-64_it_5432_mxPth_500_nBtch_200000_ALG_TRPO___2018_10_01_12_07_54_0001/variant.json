@@ -1,0 +1,25 @@
+{
+  "blMlpArch": [
+    64,
+    64
+  ],
+  "blType": "MLP",
+  "envName": "DartStandUp3d_2Bot-v1",
+  "expPrefix": "exp-111011101110111_bl_64-64_pl_128-64-64_it_20000_mxPth_500_nBtch_200000_ALG_TRPO__",
+  "exp_name": "exp-111011101110111_bl_64-64_pl_128-64-64_it_20000_mxPth_500_nBtch_200000_ALG_TRPO___2018_10_01_12_07_54_0001",
+  "gae_lambda": 1.0,
+  "isGymEnv": true,
+  "isNormalized": true,
+  "maxPathLength": 500,
+  "numBatches": 200000,
+  "numIters": 20000,
+  "optimizerArgs": null,
+  "polNetArch": [
+    128,
+    64,
+    64
+  ],
+  "resumeData": "/nethome/jturner65/rllab/data/local/exp-011101110111-bl-64-64-pl-128-64-64-it-5000-mxPth-500-nBtch-200000-ALG-TRPO-/exp-011101110111_bl_64-64_pl_128-64-64_it_3835_mxPth_500_nBtch_200000_ALG_TRPO__2018_09_10_13_32_21_0001/params.pkl&|&20000&|&200000",
+  "rwdCmpFormat": "111011101110111",
+  "useCG": true
+}
