@@ -2,3 +2,21 @@
 __pycache__/
 
 *.log
+
+example1\.py
+
+ExpDataPlots/
+
+goalStandEefData/
+
+nullPolicyTests/
+
+*.gz
+
+test\.txt
+
+trpoLibFuncs \(old\)\.py
+
+trpoLibFuncs_alt\.py
+
+trpoTests_ExpLite_old\.py
