@@ -115,9 +115,9 @@ class vfOpt():
         Jvf = self.vfDataDict['vfJacob']
         while (numVals < numRandAssists) and (itrs < maxitrs):
             itrs+=1
-            #returns a random force mult, the commensurate force given the force mult bounds, and, lastly, the actual observation value (either the force or the force mult), depending on what the environment is set with.  
+            #returns a random assist val, 
             # NOTE : very important that the environment setting matches the trained policy setting, or hilarity will ensue 
-            #_, _, rndObsAssist = dart_env.getRandomAssist(assistMultBnds)  
+            
             rndObsAssist = dart_env.getRandomAssist(assistMultBnds)  
             #build initial state observation dictionary in format expected
             tmpPath['observations']=[np.concatenate((obsPrfx,rndObsAssist))]

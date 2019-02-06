@@ -78,7 +78,9 @@ envName = 'DartStandUp3d_2Bot-v2'           #environment w/constraint using cons
 # v2 env trained with servo actuator root but without any constraint force considerations
 #dataDirName = 'exp-011011101110111_bl_32-32_pl_128-64-64_it_1710_mxPth_500_nBtch_200000_ALG_TRPO___2018_11_18_07_45_28_0001'
 #dataDirName = 'exp-011011101110111_bl_32-32_pl_128-64-64_it_8586_mxPth_500_nBtch_200000_ALG_TRPO___2018_11_18_07_45_28_0001'
-dataDirName = 'exp-011011101110111_bl_32-32_pl_128-64-64_it_13700_mxPth_500_nBtch_200000_ALG_TRPO___2018_11_18_07_45_28_0001'
+#dataDirName = 'exp-011011101110111_bl_32-32_pl_128-64-64_it_13700_mxPth_500_nBtch_200000_ALG_TRPO___2018_11_18_07_45_28_0001'
+dataDirName = 'exp-011011101110111_bl_32-32_pl_128-64-64_it_20000_mxPth_500_nBtch_200000_ALG_TRPO___2018_11_18_07_45_28_0001'
+
 #retraining attempt with smaller network archs - 1182 iters
 #dataDirName = 'exp-011101110111_bl_32-32-16_pl_64-32-32_it_1182_mxPth_500_nBtch_200000_ALG_TRPO__2018_09_16_06_11_31_0001'
 #2928 iters
@@ -122,7 +124,7 @@ def test1RunPolicy(dataDict):
     expDict = dataDict['expDict']        
     dart_env = dataDict['dartEnv']#derefed into inheriting env class
     assistDict = dataDict['assistDict']
-    usePolicyArgsDict = defaultdict(int,{'pausePerStep':0, 'renderRes':1, 'recording':1, 'findBotFrc':0, 'iterSteps': 250,'rndPolicy':expDict['useRndPol'] })
+    usePolicyArgsDict = defaultdict(int,{'pausePerStep':0, 'renderRes':1, 'recording':0, 'findBotFrc':0, 'iterSteps': 250,'rndPolicy':expDict['useRndPol'] })
     #dart_env.setAssistObjsCollidable()
     #dart_env.getANAHldr().calcCompensateEefFrc = True
     #
